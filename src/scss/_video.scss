@@ -1,0 +1,87 @@
+.video {
+    max-width: 1920px;
+    width: 100%;
+    background: url(/src/image/video/Rectangle.png) center top/1920px 570px no-repeat;
+    margin: 0 auto;
+    
+
+    .container {
+        padding-bottom: 90px;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 1110px;
+            height: 1px;
+            border-bottom: 1px solid #E0E0E0;
+            left: 50%;
+            top:100%;
+            transform: translate(-50%);
+        }
+        .content {
+
+            &__title {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 53px;
+                text-align: center;
+                color: #FFFFFF;
+                padding-top: 70px;
+            }
+
+            &__subtitle {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+                color: #FFFFFF;
+                padding-top: 30px;
+                padding-bottom: 45px;
+            }
+        }
+
+        .video-content {
+height: 430px;
+            max-width: 970px;
+            width: 100%;
+            background: url(/src/image/video/Rectanglebck.png) center top/cover no-repeat;
+            margin: 0 auto;
+
+            .video-position {
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 170px;
+
+                &__play {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    margin-left: 21px;
+                }
+
+                &__link {
+
+                    text-decoration: none;
+                    width: 300px;
+                    height: 100px;
+                    border: 1px solid #FFFFFF;
+                    border-radius: 200px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 250px;
+                }
+            }
+        }
+    }
+}

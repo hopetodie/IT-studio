@@ -1,0 +1,48 @@
+.home {
+    max-width: 1920px;
+    width: 100%;
+    background: url(/src/image/Rectangle.png) center top/cover no-repeat;
+    margin: 0 auto;
+    padding: 319px 0 335px;
+
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__subtitle {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+
+    &__btn {
+        width: 200px;
+        height: 45px;
+        border: none;
+        background: #4985FF;
+        border-radius: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        display: block;
+        margin: 0 auto;
+        outline: none;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+}

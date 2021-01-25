@@ -1,0 +1,124 @@
+.about_us {
+    max-width: 1920px;
+    width: 100%;
+    background: #F6F6F8 center top/cover no-repeat;
+    margin: 0 auto;
+    padding-bottom: 70px;
+
+    .container {
+        .row-1 {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 50px;
+
+            &::before {
+                position: absolute;
+                content: '';
+                width: 1010px;
+                height: 1px;
+                left: 50%;
+                top: 100%;
+                transform: translate(-50%);
+                background: #e0e0e0;
+            }
+
+            .col {
+                
+
+                .wrapper {
+                    &__title {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 36px;
+                        line-height: 53px;
+                        color: #323232;
+                        margin-top: 140px;
+                    }
+
+                    &__subtitle {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 25px;
+                        color: #999999;
+                    }
+
+                    &__descr {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-decoration-line: underline;
+                        color: #4985FF;
+                    }
+
+                    &__svg {
+                        width: 520px;
+                        height: 420px;
+                        margin-top: 100px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+
+        .row-2 {
+max-width: 960px;
+margin: 0 auto;
+
+
+            .col {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+
+                .wrapper {
+                    width: 104px;
+                    height: 67px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    margin-top: 70px;
+
+                    &__icon {
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 3px;
+
+
+
+                    }
+
+                    &__title {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 36px;
+                        line-height: 53px;
+                        margin: 0;
+                        padding: 0;
+
+                    }
+
+                    &__subtitle {
+
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 25px;
+                        color: #999999;
+
+                    }
+                }
+            }
+        }
+    }
+}
