@@ -516,7 +516,7 @@
 .video {
   max-width: 1920px;
   width: 100%;
-  background: url(/src/image/video/Rectangle.png) center top/1920px 570px no-repeat;
+  background: url(../src/image/video/Rectangle.png) center top/1920px 570px no-repeat;
   margin: 0 auto;
 }
 
@@ -564,7 +564,7 @@
   height: 430px;
   max-width: 970px;
   width: 100%;
-  background: url(/src/image/video/Rectanglebck.png) center top/cover no-repeat;
+  background: url(../src/image/video/Rectanglebck.png) center top/cover no-repeat;
   margin: 0 auto;
 }
 
